@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 100.44 s <<< FAILURE! - in TestSuite
+VIK.Framework.ValidateTitle.failedTC  Time elapsed: 3.424 s  <<< FAILURE!
+java.lang.AssertionError: expected [my account] but found [MY ACCOUNT]
+	at VIK.Framework.ValidateTitle.failedTC(ValidateTitle.java:39)
+

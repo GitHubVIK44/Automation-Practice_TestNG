@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-08T15:57:27 PST" name="Suite" finished-at="2021-01-08T15:59:06 PST" duration-ms="98691">
+    <groups>
+    </groups>
+    <test started-at="2021-01-08T15:57:27 PST" name="Test1" finished-at="2021-01-08T15:57:56 PST" duration-ms="28735">
+      <class name="VIK.Framework.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:VIK.Framework.ValidateTitle@4310d43]" started-at="2021-01-08T15:57:27 PST" name="initialize" finished-at="2021-01-08T15:57:52 PST" duration-ms="25095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="failedTC()[pri:0, instance:VIK.Framework.ValidateTitle@4310d43]" started-at="2021-01-08T15:57:53 PST" name="failedTC" finished-at="2021-01-08T15:57:55 PST" duration-ms="2555" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [my account] but found [MY ACCOUNT]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [my account] but found [MY ACCOUNT]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at VIK.Framework.ValidateTitle.failedTC(ValidateTitle.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTC -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:VIK.Framework.ValidateTitle@4310d43]" started-at="2021-01-08T15:57:56 PST" name="teardown" finished-at="2021-01-08T15:57:56 PST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- VIK.Framework.ValidateTitle -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-01-08T15:57:57 PST" name="Test2" finished-at="2021-01-08T15:58:20 PST" duration-ms="23360">
+      <class name="VIK.Framework.LoginPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:VIK.Framework.LoginPage@5677323c]" started-at="2021-01-08T15:57:57 PST" name="initialize" finished-at="2021-01-08T15:58:08 PST" duration-ms="10670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="signIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:VIK.Framework.LoginPage@5677323c]" started-at="2021-01-08T15:58:08 PST" name="signIn" data-provider="getData" finished-at="2021-01-08T15:58:13 PST" duration-ms="4973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="signIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:VIK.Framework.LoginPage@5677323c]" started-at="2021-01-08T15:58:13 PST" name="signIn" data-provider="getData" finished-at="2021-01-08T15:58:18 PST" duration-ms="5708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manojvip259@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practicevik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:VIK.Framework.LoginPage@5677323c]" started-at="2021-01-08T15:58:18 PST" name="teardown" finished-at="2021-01-08T15:58:20 PST" duration-ms="1996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- VIK.Framework.LoginPage -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-01-08T15:58:21 PST" name="Test3" finished-at="2021-01-08T15:59:06 PST" duration-ms="45553">
+      <class name="VIK.Framework.ValidateHeartIcon">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:VIK.Framework.ValidateHeartIcon@38cee291]" started-at="2021-01-08T15:58:21 PST" name="initialize" finished-at="2021-01-08T15:58:54 PST" duration-ms="33939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="heartIcon()[pri:0, instance:VIK.Framework.ValidateHeartIcon@38cee291]" started-at="2021-01-08T15:58:54 PST" name="heartIcon" finished-at="2021-01-08T15:58:57 PST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heartIcon -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:VIK.Framework.ValidateHeartIcon@38cee291]" started-at="2021-01-08T15:58:57 PST" name="teardown" finished-at="2021-01-08T15:59:06 PST" duration-ms="9528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- VIK.Framework.ValidateHeartIcon -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

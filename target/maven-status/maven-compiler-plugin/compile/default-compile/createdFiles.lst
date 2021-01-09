@@ -1,0 +1,6 @@
+resources\base.class
+pageObjects\LandingPage.class
+pageObjects\MyAccountPage.class
+VIK\Framework\App.class
+resources\ExtentReporterNG.class
+resources\GetScreenshot.class
